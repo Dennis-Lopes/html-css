@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicíos de Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.384);
+            text-align: center;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+
+        }
+
+        .Nome {
+            background-color: aqua;
+        }
+
+        .Sexo {
+            background-image: radial-gradient(aqua, white);
+        }
+
+        .Idade {
+            background-image: url(../ex022/imagens/pattern002.png);
+        }
+
+        .Profissão {
+            background-color: lightgray;
+            
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercicíos de Tabelas</h1>
+
+    <table>
+        <caption>Cadastro</caption>
+
+
+        <colgroup>
+            <col class="Nome">
+            <col class="Sexo">
+            <col class="Idade">
+            <col class="Profissão">
+        </colgroup>
+        <tr>
+
+
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>João Silva</td>
+            <td>Masculino</td>
+            <td>28</td>
+            <td>Engenheiro</td>
+        </tr>
+
+        <tr>
+            <td>Maria Oliveira</td>
+            <td>Feminino</td>
+            <td>35</td>
+            <td>Professora</td>
+        </tr>
+
+        <tr>
+            <td>Carlos Souza</td>
+            <td>Masculino</td>
+            <td>42</td>
+            <td>Médico</td>
+        </tr>
+
+        <tr>
+            <td>Ana Costa</td>
+            <td>Feminino</td>
+            <td>29</td>
+            <td>Designer</td>
+        </tr>
+
+        <tr>
+            <td>Pedro Almeida</td>
+            <td>Masculino</td>
+            <td>37</td>
+            <td>Advogado</td>
+        </tr>
+
+        <tr>
+            <td>Juliana Ferreira</td>
+            <td>Feminino</td>
+            <td>24</td>
+            <td>Arquiteta</td>
+        </tr>
+
+        <tr>
+            <td>Rafael Santos</td>
+            <td>Masculino</td>
+            <td>31</td>
+            <td>Jornalista</td>
+        </tr>
+
+
+    </table>
+
+</body>
+
+</html>
