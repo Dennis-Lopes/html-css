@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulario 2</title>    
+    <style>
+    body{
+        background-image: linear-gradient(to right, #e615154f, rgb(105, 105, 219), rgba(0, 0, 0, 0.527));}
+    </style>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on" >
+    <p>
+        <label for="iuser">Úsuario</label>
+        <input type="text" name="usu" id="iuser" required minlength="3" maxlength="15" autocomplete="username" placeholder="Apelido" size="30">
+    </p>
+
+    <p>
+        <label for="isen">Senha: </label>
+        <input type="password" name="sen" id="isen" required minlength="3" maxlength="15" autocomplete="current-password" placeholder="Minimo 8 letras" size="8">  
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</form>
+</body>
+</html>
