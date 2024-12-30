@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario 3</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+        <label for="iname">Nome: </label>
+        <input type="text" name="name" id="iname" required maxlength="50" placeholder="Nome completo" autocomplete="name" required size="35">
+        </p>
+        <p>
+            <label for="inota">Nota:</label>
+            <input type="number" name="nota" id="inota" min="0" max="10" placeholder="Nota da prova" step="0.1" value="5" required size="2">
+        </p>
+        <p>
+            <label for="idata">Data da Prova</label>
+            <input type="date" name="Data" id="idata">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
